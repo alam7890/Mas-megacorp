@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Lato', sans-serif;
+    font-family: 15px;
+}
+
+/*====COMMMOM-CLASSES=========*/
+.button{
+    padding: 8px;
+    background-color: #A962F0;
+    display: inline-block;
+    color: #f1f1ff;
+    font-size: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.para{
+    font-size: 1rem;
+    padding: 15px  0;
+    line-height: 20px;
+    font-weight: 300;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.image{
+    width: 100%;
+}
+.style {
+    color: slategray;
+    text-decoration-line: underline;
+}
+/*======LINKS STATE======*/
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+/*========HEADER===========*/
+.header{
+    background-image:url("../image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 480px;
+}
+.header .nav-bar{
+    padding-top: 30px;
+}
+.header .nav-bar .logo{
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-right: 30px;    
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.header .nav-bar ul{
+    align-items: center;
+}
+.header .nav-bar ul li{
+    list-style-type: none;
+    justify-content: end;
+    padding-right: 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.header .header-text{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    color: #f1f1f1;
+}
+.nav-bar ul li a:hover{
+    color: crimson;
+}
+/*========FIRST-SECTION=======*/
+.first-section{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.first-section .box{
+    text-align: center;
+    color: #f1f1f1;
+}
+.first-section .box h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.first-section .box .fa{
+    font-size: 2.5rem;
+    padding:20px 0;
+}
+/*=======SECOND-SECTION=========*/
+
+.second-section{
+    width: 100%;
+    background-color: #0F1113;
+    padding: 50px 0;
+}
+.second-section .left .article{
+    border-bottom: 1px solid slategray;
+    padding: 20px 0;
+}
+.left .article h1{
+    padding-bottom: 30px;
+    color: #dbdbdb;
+}
+.left .article p{   
+    word-spacing: 1px;
+    color: darkgray;
+}
+.left .article .image img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*====ARTICLE-2=====*/
+.upper-content .sbox{
+    padding: 10px 0 ;
+    border-bottom: 1px solid slategray;
+    color: #f1f1f1;
+    margin: 10px 0;
+}
+.sbox h1{
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+.sbox p{
+    color: darkgray;
+    padding: 0 0;
+}
+/*==========ARTICLE-3==========*/
+.article-3{
+    width: 100%;
+}
+.box1{
+   border-bottom: 1px solid slategray; 
+    color: #f1f1f1;
+}
+.box1 h1{
+    font-size: 1.4rem;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.box1 h4{
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+.box1 p{
+    font-size: 0.9rem;
+    text-indent: 1rem;
+    line-height: 20px;
+    word-spacing: 0.5px;
+    color: darkgray;
+}
+/*===========LIST SECTION=========*/
+.list h1{
+    font-weight: 300;
+    color: #dbdbdb;
+}
+.list ul {
+    padding: 0 30px;
+    color: darkgray;
+}
+.list ul li{
+    line-height: 45px;
+    border-bottom: 1px solid slategray;
+}
+/*=======INFORMATION==========*/
+.small-box h1{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: #dbdbdb;
+} 
+.small-box .div-1{
+    padding: 20px 0;
+    border-bottom: 1px solid slategray;
+    margin-bottom: 20px ;
+} 
+.small-box .image img{
+    border-radius: 3px;
+} 
+.small-box .div-1 .text p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #dbdbdb;
+}
+/*========FOOTER=======*/
+.footer{
+    background-color: #0F1113;
+    padding: 50px 0;
+    border-top: 1px solid slategray;
+}
+.footer .source p{
+    text-align: center;
+    color: slategray;   
+}
+/*====================================
+
+            MEDIA-QUERY
+
+======================================*/
+@media only screen and (min-width:1300px) and (max-width:1920px){
+    html,body{
+        font-size: 20px;
+    }
+    /*=====COMMON-CLASSES=======*/
+    .button{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .para{
+        line-height: 26px;
+    }
+    .image{
+        padding: 20px 0;
+    }
+    /*=======FIRST-SECTION=======*/
+    .first-section{
+        padding: 100px 0;
+
+    }
+    /*========SECOND-SECTION=======*/
+    .second-section{
+        padding: 100px 0; 
+    }
+    /*===========FOOTER=====*/
+    .footer{
+        padding: 70px 0;
+    }
+}
+@media only screen and (max-width:992px){
+    /*********COMMON-CLASSES***********/
+    html,body{
+        font-size: 14px;
+    }
+    /*...........HEADER-SECTION.........*/
+        .header .nav-bar .logo{
+            padding-right: 10px;
+        }
+    /*.........SECOND-SECTION........*/
+    .upper-content .sbox{
+        margin: 30px 0;
+    }
+}
+@media only screen and (max-width:768px){
+    /*========COMMOM-CLASSES=======*/
+    .head{
+        font-size: 1.4rem;
+        padding: 20px 0;
+    }
+    /*=======HEADER-SECTION======*/
+    .header .nav-bar .logo{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .first-section .box{
+        margin: 30px auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid slategray;
+    }
+}
+@media only screen and (max-width:576px){
+    .header .header-text{
+        padding: 30px 20px;
+    }
+    .first-section {
+        padding: 0 20px;
+    }
+    .second-section{
+        padding: 50px 20px;
+    }
+    .footer{
+        padding: 50px 20px;
+    }
+}
